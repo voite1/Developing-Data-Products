@@ -76,7 +76,7 @@ shinyUI(fluidPage(
                   max = 2006,
                   value = c(1992, 2006), 
                   format = "0000"), 
-      helpText(p("Move the scroll bar to adjust the period of time displayed."), p("Plot Created on 21 Feb 2015 by Pachamaltese"), img(src="http://pachamaltese.github.io/logo.jpg"), p("This plot was created for JHU's Developing Data Products MOOC."))
+      helpText(p("Move the scroll bar to adjust the period of time displayed."), p("Plot Created on 21 Feb 2015 by Pachamaltese"), img(src="https://raw.githubusercontent.com/pachamaltese/Developing-Data-Products/master/proyecto/logo.jpg"), p("This plot was created for JHU's Developing Data Products MOOC."))
     ),
     
     # Show the plot 
