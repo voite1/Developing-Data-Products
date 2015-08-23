@@ -21,7 +21,7 @@ shinyServer(function(input, output) {
                       labels = list(rotation = -0, align = 'right'), 
                       replace = T)
     grafico$xAxis(title = list(enabled = TRUE, text = 'Year'), labels = list(rotation = -30, align = 'right'), replace = T)
-    grafico$exporting(enabled = T)
+    grafico$exporting(enabled = F)
     return(grafico)
   })
 })
